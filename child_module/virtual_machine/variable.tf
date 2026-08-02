@@ -1,0 +1,1 @@
+variable "virt-machine" {}

@@ -1,0 +1,15 @@
+title = "Terraform Secret Scan"
+
+[[rules]]
+id = "terraform-password"
+
+description = "Terraform Password"
+
+regex = '''(?i)(password|apassword)\s*=\s*".+"'''
+
+secretGroup = 0
+
+keywords = [
+  "password",
+  "apassword"
+]
